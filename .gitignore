@@ -59,3 +59,4 @@ credentials.json
 token.json
 api_keys.txt
 secrets.json
+*.zip
