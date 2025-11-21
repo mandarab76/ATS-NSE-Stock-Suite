@@ -3,29 +3,31 @@
 # Configuration management
 python-dotenv==1.0.0
 
-# Add your API client libraries here as you develop:
-# For Dhan API
+# API and networking (REQUIRED for data fetching)
+requests==2.31.0
+
+# Data processing (REQUIRED for Excel integration)
+pandas==2.1.3
+numpy==1.26.2
+
+# Excel integration (REQUIRED)
+openpyxl==3.1.2
+
+# Date utilities
+python-dateutil==2.8.2
+
+# Optional: API client libraries for premium features
+# For Dhan API (uncomment if you have API credentials)
 # dhanhq==1.3.0
 
-# For Zerodha Kite API
+# For Zerodha Kite API (uncomment if you have API credentials)
 # kiteconnect==4.2.0
 
-# For Financial Modeling Prep
+# For Financial Modeling Prep (uncomment if you have API key)
 # fmpsdk==1.0.4
 
-# For Hugging Face
+# For Hugging Face integration (uncomment if needed)
 # huggingface-hub==0.19.4
 
-# Data processing
-# pandas==2.1.3
-# numpy==1.26.2
-
-# Excel integration
-# openpyxl==3.1.2
+# For VBA automation (Windows only, uncomment if needed)
 # xlwings==0.30.13
-
-# API and networking
-# requests==2.31.0
-
-# Logging and utilities
-# python-dateutil==2.8.2
