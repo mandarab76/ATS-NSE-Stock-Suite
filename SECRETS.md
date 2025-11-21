@@ -5,17 +5,17 @@ You can paste your tokens here for reference, but it's recommended to use the `.
 
 ## Your API Credentials
 
-### Dhan API
-- **Client ID**: [Paste your Dhan Client ID here]
-- **Access Token**: [Paste your Dhan Access Token here]
+### Alpha Vantage API
+- **API Key**: [ZQBRBEOBP7OH0NMZ]
 
 ### Zerodha Kite API
-- **API Key**: [Paste your Kite API Key here]
-- **API Secret**: [Paste your Kite API Secret here]
-- **Access Token**: [Paste your Kite Access Token here]
+- **API Key**: [kr8ob80gcmucrvph]
+- **API Secret**: [dablpsu1lrirbmbkseq190ua4228hkia]
+- **Access Token**: [NRV715]
 
 ### Financial Modeling Prep (FMP)
-- **API Key**: [Paste your FMP API Key here]
+- **API Key**: [rtD0v37SghQ4gMZNfX7q2Arv6RO7StUv]
+- **Access Token**: [[NRV715]](https://financialmodelingprep.com/developer/docs/]
 
 ### Hugging Face
 - **Token**: [Paste your Hugging Face Token here]
