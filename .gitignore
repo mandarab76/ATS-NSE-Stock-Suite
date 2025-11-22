@@ -54,6 +54,9 @@ logs/
 ~$*.xlsm
 ~$*.xls
 
+# Demo/test Excel files
+*_demo.xlsx
+
 # API keys and credentials
 credentials.json
 token.json
