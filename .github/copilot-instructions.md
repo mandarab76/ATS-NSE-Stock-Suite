@@ -60,8 +60,8 @@ cp .env.template .env
 # Run integration tests (ALL must pass before committing)
 python test_integration.py
 
-# Expected output: "Tests passed: 6/6"
-# All 6 tests must pass for the application to be considered functional
+# All tests must pass for the application to be considered functional
+# The test suite will report the number of passed/total tests
 ```
 
 ### Running the Application
@@ -117,12 +117,13 @@ When making changes to the codebase:
 ## Dependencies and APIs
 
 ### Core Dependencies (Required)
-- `python-dotenv==1.0.0` - Environment variable management
-- `requests==2.31.0` - HTTP requests for API calls
-- `pandas==2.1.3` - Data processing and manipulation
-- `numpy==1.26.2` - Numerical operations
-- `openpyxl==3.1.2` - Excel file generation
-- `python-dateutil==2.8.2` - Date utilities
+See `requirements.txt` for exact versions. Core dependencies include:
+- `python-dotenv` - Environment variable management
+- `requests` - HTTP requests for API calls
+- `pandas` - Data processing and manipulation
+- `numpy` - Numerical operations
+- `openpyxl` - Excel file generation
+- `python-dateutil` - Date utilities
 
 ### API Integrations
 The project supports multiple data sources:
