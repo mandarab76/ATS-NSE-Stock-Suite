@@ -412,6 +412,7 @@ gcloud run services describe ats-nse-stock-dashboard --region=us-central1
 
 ## 📚 Documentation
 
+- **[DEPLOYMENT.md](DEPLOYMENT.md)**: 🚀 **Complete Cloud Run deployment guide** (START HERE for deployment)
 - **[CONFIG.md](CONFIG.md)**: Complete guide for setting up API credentials
 - **[HUGGINGFACE_GUIDE.md](HUGGINGFACE_GUIDE.md)**: Hugging Face integration guide
 - **[SECRETS.md](SECRETS.md)**: Template for documenting your tokens (private repo only)
