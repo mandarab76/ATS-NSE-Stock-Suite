@@ -1,4 +1,7 @@
 # ATS-NSE-Stock-Suite
+
+[![Deploy to Cloud Run](https://github.com/mandarab76/ATS-NSE-Stock-Suite/actions/workflows/deploy-cloudrun.yml/badge.svg)](https://github.com/mandarab76/ATS-NSE-Stock-Suite/actions/workflows/deploy-cloudrun.yml)
+
 NSE Stock Market Analysis Suite with Live Data Integration (Dhan API, Zerodha Kite, FMP) | VBA Automation | Excel Analytics | Developed by Mandar Bahadarpurkar
 
 ## ✨ Features
@@ -14,6 +17,10 @@ NSE Stock Market Analysis Suite with Live Data Integration (Dhan API, Zerodha Ki
 - **Multiple API Support**: Flexible configuration for various data sources
 
 ## 🌐 Live Dashboard
+
+### ⚡ Quick Start
+
+**New to the dashboard?** See [QUICKSTART_DASHBOARD.md](QUICKSTART_DASHBOARD.md) for a 5-minute setup guide!
 
 ### Run Locally
 
@@ -412,7 +419,8 @@ gcloud run services describe ats-nse-stock-dashboard --region=us-central1
 
 ## 📚 Documentation
 
-- **[DEPLOYMENT.md](DEPLOYMENT.md)**: 🚀 **Complete Cloud Run deployment guide** (START HERE for deployment)
+- **[QUICKSTART_DASHBOARD.md](QUICKSTART_DASHBOARD.md)**: ⚡ **5-minute dashboard setup** (START HERE!)
+- **[DEPLOYMENT.md](DEPLOYMENT.md)**: 🚀 **Complete Cloud Run deployment guide**
 - **[CONFIG.md](CONFIG.md)**: Complete guide for setting up API credentials
 - **[HUGGINGFACE_GUIDE.md](HUGGINGFACE_GUIDE.md)**: Hugging Face integration guide
 - **[SECRETS.md](SECRETS.md)**: Template for documenting your tokens (private repo only)
